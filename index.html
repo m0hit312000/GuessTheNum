@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>GuessTheNum</title>
+</head>
+<body>
+    <section id="particles-js">
+    <div class="container">
+       <p class="comment">Lets Play</p>
+       <p class="instruction">We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer.
+          We'll tell you if your guess was too high or too low.</p>
+       <form class="entry_area">
+        <label class="indicator">Enter the no. here</label><br>
+        <input class = "entry" type="number" placeholder="Guess!">
+       </form>
+       <button class="submit">Submit</button>
+       <br><br>
+       <p class="show">Previous Guesses are:</p>
+       <p class="results"></p><br>
+       <p class="hint-area"></p>
+       <button class="play_again">Play Again</button>
+    </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="particles.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

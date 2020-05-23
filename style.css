@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body
+{
+
+   color: white;
+   background-image:url("https://36.media.tumblr.com/7cd01b3ea1577a8c553217e8a0fb8e2d/tumblr_nollb4kER11tjrwu3o1_1280.jpg");
+   background-size: cover;      
+   font-family: 'Righteous', cursive;
+   overflow: hidden;
+}
+section
+{
+    height: 100vh;
+}
+#particles-js
+{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+.container
+{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    left: 460px;
+    top: 30px;
+    /* border: 1px red dotted ; */
+    border-radius: 5%;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 45px 22px rgba(167,155,235,0.4);
+    -moz-box-shadow: 0px 0px 45px 22px rgba(167,155,235,0.4);
+    box-shadow: 0px 0px 45px 22px rgba(167,155,235,0.4);
+}
+.comment
+{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 252, 94);
+}
+.instruction
+{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+}
+.entry_area
+{
+    position: absolute;
+    display: inline;
+    left: 240px;
+    top: 190px;
+}
+.entry_area .indicator
+{
+    position: absolute;
+    font-size: 30px;
+    left: -35px;
+    width: 260px;
+}
+.entry_area .entry
+{
+    position: absolute;
+    top: 100px;
+    left: 32px;
+    font-size: 25px;
+    width: 110px;
+    color: dimgrey;
+}
+input[type=number]
+{
+    padding: 5px;
+    box-sizing: border-box ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.submit
+{
+    position: absolute;
+    padding: 5px;
+    box-sizing: border-box ;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: 'Righteous', cursive;
+    top: 350px;
+    left: 300px;
+}
+.submit:hover {background-color: #c5c9c5}
+
+.submit:active {
+  background-color: #c5c9c5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.entry_area .submit
+{
+    position: absolute;
+    top: 160px;
+    left: 62px;
+}
+.show
+{
+    position: absolute;
+    top: 400px;
+    font-size: 30px;
+    left: 180px;
+}
+.results
+{
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    top: 460px;
+    font-size: 30px;
+}
+.hint-area
+{
+    position: absolute;
+    text-align: center;
+    width: 600px; 
+    font-size: 30px;
+    top: 520px;
+    /* background-color: rgb(62, 201, 62); */
+}
+.play_again
+{
+    position: absolute;
+    top: 590px;
+    left: 260px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(255, 71, 71);
+    padding: 8px;
+    font-family: 'Righteous',cursive;
+    border-radius: 10px;
+    display: none;
+}
+.play_again:hover 
+{
+    background-color: rgb(219, 40, 40);
+    transform: translateY(-4px)
+}
+
+.play_again:active {
+  background-color: rgb(219, 40, 40);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
